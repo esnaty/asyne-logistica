@@ -1,0 +1,1 @@
+ALTER TYPE "public"."platform_role" ADD VALUE 'admin' BEFORE 'superuser';

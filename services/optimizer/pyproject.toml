@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=75"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "asyne-optimizer"
+version = "0.1.0"
+description = "Route optimization service for Asyne Logistica"
+requires-python = ">=3.12"
+dependencies = [
+  "fastapi>=0.116,<1",
+  "ortools>=9.14,<10",
+  "pydantic>=2.11,<3",
+  "uvicorn[standard]>=0.35,<1"
+]
+
+[tool.setuptools.packages.find]
+include = ["app*"]

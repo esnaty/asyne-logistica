@@ -1,0 +1,5 @@
+import { defineComponent, h } from 'vue'
+import type { IconAliases, IconSet } from 'vuetify'
+import AppIcon from '../components/AppIcon.vue'
+export const lucideSet:IconSet={component:defineComponent({props:{icon:{type:[String,Array],required:true},tag:{type:[String,Object],default:'i'}},setup:(props)=>()=>h(props.tag as string,{class:'v-icon__svg'},[h(AppIcon,{name:String(props.icon),size:20})])})}
+export const lucideAliases:Partial<IconAliases>={close:'close',delete:'trash',clear:'close',success:'check',complete:'check',cancel:'close',info:'info',warning:'warning',error:'warning',prev:'chevronLeft',next:'chevronRight',first:'chevronsLeft',last:'chevronsRight',dropdown:'chevronDown',expand:'chevronDown',collapse:'chevronUp',subgroup:'chevronDown',sortAsc:'arrowUp',sortDesc:'arrowDown',menu:'menu',edit:'edit',plus:'plus',minus:'minus',calendar:'calendar',upload:'upload',file:'file',checkboxOn:'squareCheck',checkboxOff:'square',checkboxIndeterminate:'squareMinus',radioOn:'circleDot',radioOff:'circle',unfold:'chevronsUpDown'}

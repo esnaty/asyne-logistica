@@ -1,0 +1,83 @@
+{
+  "version": "7",
+  "dialect": "postgresql",
+  "entries": [
+    {
+      "idx": 0,
+      "version": "7",
+      "when": 1788099945158,
+      "tag": "0000_productive_garia",
+      "breakpoints": true
+    },
+    {
+      "idx": 1,
+      "version": "7",
+      "when": 1788101105413,
+      "tag": "0001_hard_the_phantom",
+      "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "7",
+      "when": 1788102332248,
+      "tag": "0002_easy_franklin_storm",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "7",
+      "when": 1788104291841,
+      "tag": "0003_dear_cerebro",
+      "breakpoints": true
+    },
+    {
+      "idx": 4,
+      "version": "7",
+      "when": 1788106998028,
+      "tag": "0004_medical_starhawk",
+      "breakpoints": true
+    },
+    {
+      "idx": 5,
+      "version": "7",
+      "when": 1788117558112,
+      "tag": "0005_reflective_malcolm_colcord",
+      "breakpoints": true
+    },
+    {
+      "idx": 6,
+      "version": "7",
+      "when": 1788118191407,
+      "tag": "0006_foamy_vindicator",
+      "breakpoints": true
+    },
+    {
+      "idx": 7,
+      "version": "7",
+      "when": 1788343200000,
+      "tag": "0007_company_roles_permissions",
+      "breakpoints": true
+    },
+    {
+      "idx": 8,
+      "version": "7",
+      "when": 1788523200000,
+      "tag": "0008_permission_navigation",
+      "breakpoints": true
+    },
+    {
+      "idx": 9,
+      "version": "7",
+      "when": 1788526800000,
+      "tag": "0009_business_partners",
+      "breakpoints": true
+    },
+    {
+      "idx": 10,
+      "version": "7",
+      "when": 1789038000000,
+      "tag": "0010_product_catalog",
+      "breakpoints": true
+    }
+  ]
+}

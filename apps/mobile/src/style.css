@@ -1,0 +1,27 @@
+@font-face { font-family: 'Manrope Variable'; font-style: normal; font-display: swap; font-weight: 200 800; src: url('https://cdn.jsdelivr.net/fontsource/fonts/manrope:vf@5.3.0/latin-wght-normal.woff2') format('woff2-variations'); }
+
+:root {
+  font-family: 'Manrope Variable', Manrope, system-ui, sans-serif;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+}
+
+.v-btn { text-transform: none !important; letter-spacing: normal; font-weight: 400 !important; }
+.status-chip { border-radius: 7px !important; font-weight: 500; }
+.company-header-logo { width: 68px; height: 36px; flex: 0 0 68px; }
+.company-header-logo .v-img__img { object-position: left center !important; }
+.v-avatar:has(.v-img) { background: transparent !important; }
+.text-medium-emphasis { color: #64748b !important; }
+.v-card { border-color: #e2e8f0 !important; }
+
+html,
+body,
+#app {
+  min-width: 320px;
+  min-height: 100%;
+  margin: 0;
+}
+
+body {
+  overscroll-behavior: none;
+}
